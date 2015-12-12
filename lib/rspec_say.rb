@@ -1,5 +1,9 @@
-require "rspec_say/version"
+require 'rspec_say/version'
+require 'rspec_say/say_formatter'
+
 
 module RspecSay
-  # Your code goes here...
+  
 end
+
+RSpecSay = SayFormatter
